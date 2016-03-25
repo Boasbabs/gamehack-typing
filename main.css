@@ -1,0 +1,39 @@
+body {
+	width: 100%;
+	height: 100vh;
+	margin: 0 auto;
+	padding: 0;
+	background-color: #F1F1F1;
+}
+
+.bubb {
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	font: bold 15px verdana;
+	background-color: yellow;
+	border-radius: 25%;
+	vertical-align: middle;
+	padding: 5px;
+}
+
+#score {
+	font-size: 4em;
+	top: 25px;
+	right: 50px;
+	display: none;
+	text-align: right;
+}
+#start {
+	width: 5em;
+	padding: 10px 15px;
+	background-color: #EF3D3D;
+	color: #000;
+	border-radius: 10px;
+	position: absolute;
+	text-align: center;
+}
+#start:hover {
+	cursor: pointer;
+	color: #ff0;
+}

@@ -1,6 +1,6 @@
 body {
 	width: 100%;
-	height: 100vh;
+	/*height: 100vh;*/
 	margin: 0 auto;
 	padding: 0;
 	background-color: #F1F1F1;
@@ -12,9 +12,9 @@ body {
 	height: 30px;
 	font: bold 15px verdana;
 	background-color: yellow;
-	border-radius: 25%;
+	-webkit-border-radius: 50%;
 	vertical-align: middle;
-	padding: 5px;
+	padding: 10px;
 }
 
 #score {
@@ -24,11 +24,17 @@ body {
 	display: none;
 	text-align: right;
 }
+#container{
+	position: relative;
+	width: 90%;
+	background-color: #EF332A;
+}
 #start {
 	width: 5em;
 	padding: 10px 15px;
 	background-color: #EF3D3D;
 	color: #000;
+	font: bold 15px verdana;
 	border-radius: 10px;
 	position: absolute;
 	text-align: center;
